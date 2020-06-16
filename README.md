@@ -1,4 +1,4 @@
-# FUS13
-fastcampus UX/UI design school 13 / 개발 학습용 저장소
-김희연
-## CLI 명령어
+# FUS13기 개발 수업 정리
+작성자 : 김희연
+
+* [CLI 명령어](md/CLI.md)

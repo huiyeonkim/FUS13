@@ -17,3 +17,5 @@ mkdir FUS13(폴더명)
 ``` js
 touch index.html (폴더안에 index.html 파일 생성)
 ```
+
+[README](../README.md)

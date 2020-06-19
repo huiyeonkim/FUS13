@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex box</title>
+  <style>
+    .ediya-menu{
+      list-style: none;
+      padding-left: 0;
+      margin: 0 auto;
+      width: 100%;
+      background-color: cornsilk;
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .item{
+      background-color: lightblue;
+      height: 100px;
+      width: 100%;
+    }
+    @media screen and (min-width: 600px){
+      .item{
+        width: 50%;
+        height: 150px;
+      }
+    }
+    @media screen and (min-width: 1000px){
+      .item{
+        width: 33.33333%;
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <ul class="ediya-menu">
+    <li class="item">box 1</li>
+    <li class="item">box 2</li>
+    <li class="item">box 3</li>
+    <li class="item">box 4</li>
+    <li class="item">box 5</li>
+    <li class="item">box 6</li>
+  </ul>
+</body>
+</html>
